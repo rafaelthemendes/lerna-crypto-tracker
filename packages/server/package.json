@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "author": "Rafael Mendes <rafaelthemendes@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon 'src/server.ts' --exec 'ts-node' src/server.ts -e ts,graphql",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^16.0.1",
+    "nomics": "^0.5.7"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.2.2",
+    "@graphql-codegen/typescript": "2.3.1",
+    "@graphql-codegen/typescript-resolvers": "2.4.0",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
