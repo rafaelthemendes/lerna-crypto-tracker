@@ -1,0 +1,18 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "author": "Rafael Mendes <rafaelthemendes@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "graphql": "^16.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
